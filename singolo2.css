@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'Lato Black';
+    src: url('assets/fonts/Lato-Black.ttf') format('truetype')
+} 
+@font-face {
+    font-family: 'Lato Bold';
+    src: url('assets/fonts/Lato-Bold.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Lato Regular';
+    src: url('assets/fonts/Lato-Regular.ttf') format('truetype')
+}
+@font-face {
+    font-family: 'Lato Light';
+    src: url('assets/fonts/Lato-Light.ttf') format('truetype')
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    
+}
+.container1 {
+    max-width: 1020px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    height: 870px;
+    font-family: Lato;
+    border-bottom: 6px solid #323746;
+}
+.Portfolio {
+    background-color: #2d303a;
+}
+.P_heder {
+    padding-top: 70px;
+    color: blue;
+}
+.P_h_name {
+    font-size: 30px;
+    color: #666d89;
+    text-align: left;
+    line-height: 18px;
+    
+}
+.P_h_text {
+font-size: 15px;
+margin-block-start: 27px;
+text-align: justify;
+font: 300 18px/30px "Lato", "Arial"; sans-serif;
+letter-spacing: -0.012em;
+}
+.P_nav {
+margin: 10px 0;
+}
+.P_img {
+    max-width: 940px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+    height: 601px;
+}
+.nav {
+    margin-right: 3.7px;
+}
+.P_img {
+    margin-top: 12px;
+    margin-left: 1px;
+}
+.img {   
+    margin-bottom: 20px;
+}
+.About_Us {
+    
+    height: 735px;
+    padding: 68px 40px;
+    font-family: Lato;
+    background-color: #f2f2f2;
+    border-bottom: 6px solid white;
+}
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+}
+.A_U_h_name {
+    font-size: 30px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900px;
+    text-align: left;
+    line-height: 18px;
+}
+.A_U_text {
+    font-family: "Lato";
+    font-weight: 300;
+    text-align: justify;
+    position: relative;
+    top: 27px;
+    font-size: 18px;
+    line-height: 30px;
+    color: #767e9e;
+
+}
+.A_U_img {
+    margin-top: 71px;
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+}
+.A_U_img1 {
+    height: 463px;
+    
+}
+.A_U_img2 {
+
+}
+.A_U_img12 {
+    margin-top: 9.5px;
+    font-size: 18px;
+    color: #666d89;
+    font-family: "Lato";
+    font-weight: 900;
+}
