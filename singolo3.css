@@ -1,0 +1,181 @@
+@font-face {
+    font-family: Lato-Bold;
+    src: url("./assets/fonts/Lato-Bold.ttf")
+}
+@font-face {
+    font-family: Lato-Black;
+    src: url("./assets/fonts/Lato-Black.ttf")
+}
+@font-face {
+    font-family: Lato-Light;
+    src: url("./assets/fonts/Lato-Light.ttf")
+}
+@font-face {
+    font-family: Lato-Regular;
+    src: url("./assets/fonts/Lato-Regular.ttf")
+}
+
+* {
+    margin:0;
+    padding:0;
+}
+body {
+    width: 100%;
+}
+.contact {
+    height: 648px; 
+    background-color: #f06c64;
+    border-bottom: 6px solid #ea676b;
+}
+.Get_a_quote {
+    width: 1020px;
+    margin: auto;
+}
+h2 {
+    font-family: 'Lato-Black';
+    font-size: 30px;
+    padding-left: 40px;
+    padding-top: 60px;
+    letter-spacing: -0.16px;
+    color: white;
+}
+.Get_a_quote p {
+    color: white;
+    text-align: justify;
+    margin-top: 19px;
+    font-family: 'Lato-Light';
+    font-size: 18px;
+    padding-left: 40px;
+    padding-right: 40px;
+    letter-spacing: 0.19px;
+    word-spacing: -2.6px;
+    line-height: 1.65;
+}
+.form {
+    margin: auto;
+    width: 940px;
+    margin-top: 27px;
+    display: flex;
+    justify-content: space-between;
+}
+.form1 {
+    display: flex;
+    flex-direction: column;
+    width: 619px;  
+}
+.input {
+    margin-top: 16px;
+    height: 38px;
+    padding: 0;
+    border-radius: 4px;
+    border: none;
+    background-color: #d6564f;
+    outline: none;
+    padding-left: 15px;
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    color: #ee8284;
+    width: 605px;
+}
+.input::placeholder {
+    font-size: 12px;
+    color: #ee8284;
+    margin-left: 20px;
+}
+.describe {
+    height: 190px;
+    resize: none;
+    padding-top: 12px;
+    letter-spacing: 0px;
+}
+.submit {
+    background-color: #d6564f;
+    width: 25%;
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+.contact2 {
+    width: 300px;
+    color: white;
+} 
+.contact2 h3 {
+    font-size: 18px;
+    font-family: 'Lato-Black';
+    margin-top: 15px;
+    
+    
+}
+.contact2_text {
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    margin-top: 9px;
+    text-align: justify;
+    line-height: 1.75;
+    word-spacing: -1.7px;
+}
+
+.c_adress {
+    margin-top: -2px;
+    text-align: justify;
+    letter-spacing: 0.1px;
+    word-spacing: -1.7px;
+
+} 
+.c_phone {
+    margin-left: -5px;
+    margin-top: 6px;
+}
+.c_email {
+    margin-left: -6px;
+    margin-top: 7px;
+}
+.c_adress>img {
+    margin-right: 13px;
+    margin-left: 4px;
+}
+.c_phone>img {
+    margin-right: 11px;
+    margin-left: 6px;
+}
+.c_email>img {
+    margin-right: 12px;
+    margin-left: 5px;
+}
+.contact2_info {
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    margin-top: 28px;
+}
+footer {
+    background-color: #2d303a;
+    height: 76px;
+}
+.footer_down {
+    background-color: #2d303a;
+    height: 100%;
+    padding-bottom: 0px;
+    width: 1020px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_left {
+    font-family: 'Lato-Regular';
+    font-size: 12px;
+    color: #666d89;
+    margin-left: 41px;
+    letter-spacing: -0.1px;
+}
+.icon_right {
+    margin-right: 40px;
+    width: 152px;
+    margin-top: 2px;
+}
+.twi {
+    margin-left: 2px;
+}
+.lin {
+    margin-left: 2px;
+}
